@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Estudiante\\Desktop\\GestionDeClinica5_20240434_20230417\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|c:\\users\\estudiante\\desktop\\gestiondeclinica5_20240434_20230417\\vistas\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|solutionrelative:vistas\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9D29CD7-25B9-46A9-B780-6E00E52DA586}|Modelos\\Modelos.csproj|c:\\users\\estudiante\\desktop\\gestiondeclinica5_20240434_20230417\\modelos\\especialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9D29CD7-25B9-46A9-B780-6E00E52DA586}|Modelos\\Modelos.csproj|solutionrelative:modelos\\especialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9D29CD7-25B9-46A9-B780-6E00E52DA586}|Modelos\\Modelos.csproj|c:\\users\\estudiante\\desktop\\gestiondeclinica5_20240434_20230417\\modelos\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9D29CD7-25B9-46A9-B780-6E00E52DA586}|Modelos\\Modelos.csproj|solutionrelative:modelos\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9D29CD7-25B9-46A9-B780-6E00E52DA586}|Modelos\\Modelos.csproj|c:\\users\\estudiante\\desktop\\gestiondeclinica5_20240434_20230417\\modelos\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9D29CD7-25B9-46A9-B780-6E00E52DA586}|Modelos\\Modelos.csproj|solutionrelative:modelos\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9D29CD7-25B9-46A9-B780-6E00E52DA586}|Modelos\\Modelos.csproj|c:\\users\\estudiante\\desktop\\gestiondeclinica5_20240434_20230417\\modelos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9D29CD7-25B9-46A9-B780-6E00E52DA586}|Modelos\\Modelos.csproj|solutionrelative:modelos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9D29CD7-25B9-46A9-B780-6E00E52DA586}|Modelos\\Modelos.csproj|c:\\users\\estudiante\\desktop\\gestiondeclinica5_20240434_20230417\\modelos\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9D29CD7-25B9-46A9-B780-6E00E52DA586}|Modelos\\Modelos.csproj|solutionrelative:modelos\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|c:\\users\\estudiante\\desktop\\gestiondeclinica5_20240434_20230417\\vistas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|solutionrelative:vistas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmLogin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\GestionDeClinica5_20240434_20230417\\Vistas\\frmLogin.cs",
+              "RelativeDocumentMoniker": "Vistas\\frmLogin.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\GestionDeClinica5_20240434_20230417\\Vistas\\frmLogin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Vistas\\frmLogin.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T17:13:34.254Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Especialidad.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\GestionDeClinica5_20240434_20230417\\Modelos\\Especialidad.cs",
+              "RelativeDocumentMoniker": "Modelos\\Especialidad.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\GestionDeClinica5_20240434_20230417\\Modelos\\Especialidad.cs",
+              "RelativeToolTip": "Modelos\\Especialidad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T16:34:31.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cita.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\GestionDeClinica5_20240434_20230417\\Modelos\\Cita.cs",
+              "RelativeDocumentMoniker": "Modelos\\Cita.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\GestionDeClinica5_20240434_20230417\\Modelos\\Cita.cs",
+              "RelativeToolTip": "Modelos\\Cita.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T16:34:15.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Medico.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\GestionDeClinica5_20240434_20230417\\Modelos\\Medico.cs",
+              "RelativeDocumentMoniker": "Modelos\\Medico.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\GestionDeClinica5_20240434_20230417\\Modelos\\Medico.cs",
+              "RelativeToolTip": "Modelos\\Medico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T16:33:58.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Paciente.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\GestionDeClinica5_20240434_20230417\\Modelos\\Paciente.cs",
+              "RelativeDocumentMoniker": "Modelos\\Paciente.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\GestionDeClinica5_20240434_20230417\\Modelos\\Paciente.cs",
+              "RelativeToolTip": "Modelos\\Paciente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T16:33:39.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\GestionDeClinica5_20240434_20230417\\Modelos\\Usuario.cs",
+              "RelativeDocumentMoniker": "Modelos\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\GestionDeClinica5_20240434_20230417\\Modelos\\Usuario.cs",
+              "RelativeToolTip": "Modelos\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T15:51:00.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\GestionDeClinica5_20240434_20230417\\Vistas\\Program.cs",
+              "RelativeDocumentMoniker": "Vistas\\Program.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\GestionDeClinica5_20240434_20230417\\Vistas\\Program.cs",
+              "RelativeToolTip": "Vistas\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T15:20:34.891Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
