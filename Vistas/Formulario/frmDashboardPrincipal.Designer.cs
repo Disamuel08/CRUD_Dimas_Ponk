@@ -34,7 +34,7 @@
             this.btnCItas = new System.Windows.Forms.Button();
             this.btnMedicos = new System.Windows.Forms.Button();
             this.btnPacientes = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.pnlPanelCentral = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -87,6 +87,7 @@
             this.btnCItas.TabIndex = 3;
             this.btnCItas.Text = "CItas";
             this.btnCItas.UseVisualStyleBackColor = true;
+            this.btnCItas.Click += new System.EventHandler(this.btnCItas_Click);
             // 
             // btnMedicos
             // 
@@ -98,6 +99,7 @@
             this.btnMedicos.TabIndex = 2;
             this.btnMedicos.Text = "Medicos";
             this.btnMedicos.UseVisualStyleBackColor = true;
+            this.btnMedicos.Click += new System.EventHandler(this.btnMedicos_Click);
             // 
             // btnPacientes
             // 
@@ -111,13 +113,14 @@
             this.btnPacientes.UseVisualStyleBackColor = true;
             this.btnPacientes.Click += new System.EventHandler(this.btnPacientes_Click);
             // 
-            // panel2
+            // pnlPanelCentral
             // 
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(200, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(600, 446);
-            this.panel2.TabIndex = 1;
+            this.pnlPanelCentral.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlPanelCentral.Location = new System.Drawing.Point(200, 0);
+            this.pnlPanelCentral.Name = "pnlPanelCentral";
+            this.pnlPanelCentral.Size = new System.Drawing.Size(600, 446);
+            this.pnlPanelCentral.TabIndex = 1;
+            this.pnlPanelCentral.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlPanelCentral_Paint);
             // 
             // frmDashboardPrincipal
             // 
@@ -125,7 +128,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(800, 446);
-            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.pnlPanelCentral);
             this.Controls.Add(this.panel1);
             this.Name = "frmDashboardPrincipal";
             this.Text = "DashboardPrincipal";
@@ -143,6 +146,6 @@
         private System.Windows.Forms.Button btnCItas;
         private System.Windows.Forms.Button btnMedicos;
         private System.Windows.Forms.Button btnPacientes;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel pnlPanelCentral;
     }
 }

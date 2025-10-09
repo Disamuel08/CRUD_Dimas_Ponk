@@ -1,16 +1,1 @@
-{
-  "ShowEmptyProjects": false,
-  "SelectedGroups": [],
-  "ExpandedProjects": [],
-  "EnableSpellChecker": true,
-  "ColumnOrder": [
-    "name",
-    "type",
-    "neutral-value",
-    "neutral-comment"
-  ],
-  "VisibleColumnKeys": [
-    "name",
-    "neutral-value"
-  ]
-}
+{"CustomColumnOrderings":{"name":0,"file-path":1,"file-name":2,"neutral-value":3,"neutral-comment":4,"type":5},"ShowValidationErrors":true,"SelectedResourceGroups":["C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Vistas\\Formulario\\frmDashboardPrincipal.resx","C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Vistas\\Controles\\frnRegistrarUsuario.resx"],"VisibleColumnKeys":["name","neutral-value"]}

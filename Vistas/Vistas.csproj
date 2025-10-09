@@ -62,6 +62,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controles\ControlDeAcceso.cs" />
     <Compile Include="Controles\frnRegistrarUsuario.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -117,6 +118,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Controles\InicioSesion2.resx">
       <DependentUpon>InicioSesion2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario\frmCItas.resx">
+      <DependentUpon>frmCItas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formulario\frmDashboardPrincipal.resx">
       <DependentUpon>frmDashboardPrincipal.cs</DependentUpon>

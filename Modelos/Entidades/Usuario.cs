@@ -70,14 +70,14 @@ namespace Modelos.Entidades
         public int ObtenerRol(string nombreUsuario)
         {
             int id_Rol = 0;
-            string servidor = "JARVIS\\SQLEXPRESS";
-            string baseDeDatos = "ClinicaDB2";
+            string servidor = "LAB03-DS-EQ12\\SQLEXPRESS";
+            string baseDeDatos = "ClinicaDB1";
             string conexion = $"Server={servidor};Database={baseDeDatos};Trusted_Connection=True;";
 
             using (SqlConnection conn = new SqlConnection(conexion))
             {
                 conn.Open();
-                SqlCommand cmd = new SqlCommand("SELECT id_Rol FROM Usuario WHERE nombre_Usuario = @nombre", conn);
+                SqlCommand cmd = new SqlCommand("SELECT id_Rol FROM Usuarios WHERE nombre_Usuario = @nombre_Usuario", conn);
                 cmd.Parameters.AddWithValue("@nombre_Usuario", nombreUsuario);
                 object result = cmd.ExecuteScalar();
 
