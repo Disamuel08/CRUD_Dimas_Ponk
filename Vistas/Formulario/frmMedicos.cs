@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Modelos;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,11 @@ namespace Vistas.Formulario
         public frmMedicos()
         {
             InitializeComponent();
+        }
+
+        private void frmMedicos_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
