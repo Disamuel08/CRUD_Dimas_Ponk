@@ -10,8 +10,8 @@ namespace Modelos.Conexion
 {
     public class Conexion
     {
-        private static string servidor = "";
-        private static string baseDeDatos = "ClinicaDB";
+        private static string servidor = "JARVIS\\SQLEXPRESS";
+        private static string baseDeDatos = "ClinicaDB2";
 
         public static SqlConnection Conectar()
         {
