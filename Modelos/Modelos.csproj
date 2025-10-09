@@ -45,6 +45,7 @@
     <Compile Include="Cita.cs" />
     <Compile Include="Conexion\Conexion.cs" />
     <Compile Include="Especialidad.cs" />
+    <Compile Include="Historial.cs" />
     <Compile Include="Medico.cs" />
     <Compile Include="Paciente.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

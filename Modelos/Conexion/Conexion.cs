@@ -11,7 +11,7 @@ namespace Modelos.Conexion
     public class Conexion
     {
         private static string servidor = "";
-        private static string baseDeDatos = "";
+        private static string baseDeDatos = "ClinicaDB";
 
         public static SqlConnection Conectar()
         {

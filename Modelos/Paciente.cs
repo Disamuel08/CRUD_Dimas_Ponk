@@ -10,7 +10,6 @@ namespace Modelos
     {
         private int id_Paciente;
         private string nombre_Paciente;
-        private string apellido_Paciente;
         private string direccion;
         private string telefono;
         private DateTime fecha_Nacimiento;
@@ -19,7 +18,6 @@ namespace Modelos
 
         public int Id_Paciente { get => id_Paciente; set => id_Paciente = value; }
         public string Nombre_Paciente { get => nombre_Paciente; set => nombre_Paciente = value; }
-        public string Apellido_Paciente { get => apellido_Paciente; set => apellido_Paciente = value; }
         public string Direccion { get => direccion; set => direccion = value; }
         public string Telefono { get => telefono; set => telefono = value; }
         public DateTime Fecha_Nacimiento { get => fecha_Nacimiento; set => fecha_Nacimiento = value; }
