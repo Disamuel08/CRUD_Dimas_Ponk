@@ -70,7 +70,7 @@ namespace Modelos.Entidades
         public int ObtenerRol(string nombreUsuario)
         {
             int id_Rol = 0;
-            string servidor = "LAB03-DS-EQ12\\SQLEXPRESS";
+            string servidor = "JARVIS\\SQLEXPRESS";
             string baseDeDatos = "ClinicaDB1";
             string conexion = $"Server={servidor};Database={baseDeDatos};Trusted_Connection=True;";
 

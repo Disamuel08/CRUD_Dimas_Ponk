@@ -69,3 +69,15 @@ C:\Users\Estudiante\Documents\CRUD_Dimas_Ponk\Vistas\obj\Debug\Vistas.csproj.Up2
 C:\Users\Estudiante\Documents\CRUD_Dimas_Ponk\Vistas\obj\Debug\Vistas.exe
 C:\Users\Estudiante\Documents\CRUD_Dimas_Ponk\Vistas\obj\Debug\Vistas.pdb
 C:\Users\Estudiante\Documents\CRUD_Dimas_Ponk\Vistas\obj\Debug\Vistas.Formulario.frmCItas.resources
+C:\Users\Flore\OneDrive\CRUD_Dimas_Ponk\Vistas\obj\Debug\Vistas.Formulario.frmCItas.resources
+C:\Users\Flore\OneDrive\CRUD_Dimas_Ponk\Vistas\obj\Debug\Vistas.Formulario.frmMedicos.resources
+C:\Users\Flore\OneDrive\CRUD_Dimas_Ponk\Vistas\bin\Debug\BCrypt.Net-Next.dll
+C:\Users\Flore\OneDrive\CRUD_Dimas_Ponk\Vistas\bin\Debug\System.Buffers.dll
+C:\Users\Flore\OneDrive\CRUD_Dimas_Ponk\Vistas\bin\Debug\System.Memory.dll
+C:\Users\Flore\OneDrive\CRUD_Dimas_Ponk\Vistas\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Flore\OneDrive\CRUD_Dimas_Ponk\Vistas\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Flore\OneDrive\CRUD_Dimas_Ponk\Vistas\bin\Debug\BCrypt.Net-Next.xml
+C:\Users\Flore\OneDrive\CRUD_Dimas_Ponk\Vistas\bin\Debug\System.Buffers.xml
+C:\Users\Flore\OneDrive\CRUD_Dimas_Ponk\Vistas\bin\Debug\System.Memory.xml
+C:\Users\Flore\OneDrive\CRUD_Dimas_Ponk\Vistas\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Flore\OneDrive\CRUD_Dimas_Ponk\Vistas\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml

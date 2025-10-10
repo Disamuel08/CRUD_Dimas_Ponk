@@ -38,3 +38,14 @@ C:\Users\Estudiante\Documents\CRUD_Dimas_Ponk\Modelos\obj\Debug\Modelos.csproj.C
 C:\Users\Estudiante\Documents\CRUD_Dimas_Ponk\Modelos\obj\Debug\Modelos.csproj.Up2Date
 C:\Users\Estudiante\Documents\CRUD_Dimas_Ponk\Modelos\obj\Debug\Modelos.dll
 C:\Users\Estudiante\Documents\CRUD_Dimas_Ponk\Modelos\obj\Debug\Modelos.pdb
+C:\Users\Flore\OneDrive\CRUD_Dimas_Ponk\Modelos\bin\Debug\BCrypt.Net-Next.dll
+C:\Users\Flore\OneDrive\CRUD_Dimas_Ponk\Modelos\bin\Debug\System.Buffers.dll
+C:\Users\Flore\OneDrive\CRUD_Dimas_Ponk\Modelos\bin\Debug\System.Memory.dll
+C:\Users\Flore\OneDrive\CRUD_Dimas_Ponk\Modelos\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Flore\OneDrive\CRUD_Dimas_Ponk\Modelos\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Flore\OneDrive\CRUD_Dimas_Ponk\Modelos\bin\Debug\BCrypt.Net-Next.xml
+C:\Users\Flore\OneDrive\CRUD_Dimas_Ponk\Modelos\bin\Debug\System.Buffers.xml
+C:\Users\Flore\OneDrive\CRUD_Dimas_Ponk\Modelos\bin\Debug\System.Memory.xml
+C:\Users\Flore\OneDrive\CRUD_Dimas_Ponk\Modelos\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Flore\OneDrive\CRUD_Dimas_Ponk\Modelos\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Flore\OneDrive\CRUD_Dimas_Ponk\Modelos\obj\Debug\Modelos.csproj.Up2Date

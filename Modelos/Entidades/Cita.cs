@@ -12,23 +12,25 @@ namespace Modelos
     public class Cita
     {
         private int id_Cita;
-        private DateTime fecha_Hora;
+        private DateTime fecha;
+        private TimeSpan hora;
         private int id_Paciente;
         private int id_Medico;
         private string motivo;
-        private string estado;
+     
 
         public int Id_Cita { get => id_Cita; set => id_Cita = value; }
-        public DateTime Fecha_Hora { get => fecha_Hora; set => fecha_Hora = value; }
+       
         public int Id_Paciente { get => id_Paciente; set => id_Paciente = value; }
         public int Id_Medico { get => id_Medico; set => id_Medico = value; }
         public string Motivo { get => motivo; set => motivo = value; }
-        public string Estado { get => estado; set => estado = value; }
+        public DateTime Fecha { get => fecha; set => fecha = value; }
+        public TimeSpan Hora { get => hora; set => hora = value; }
 
         public static DataTable MostrarCitas()
         {
             SqlConnection con = Conexion.Conexion.Conectar();
-            string comando = "SELECT * FROM cita;";
+            string comando = "select* from Citas;";
             SqlDataAdapter ad = new SqlDataAdapter(comando, con);
             DataTable dt = new DataTable();
             ad.Fill(dt);
@@ -41,16 +43,16 @@ namespace Modelos
             {
                 SqlConnection con = Conexion.Conexion.Conectar();
 
-                string comando = "Insert into cita (id_Paciente, id_Medico, motivo, estado, fecha_Hora) " +
-                    " values (@id_Paciente, @id_Medico, @motivo, @estado, @fecha_Hora);";
+                string comando = "Insert into cita (id_Paciente, id_Medico, motivo, fecha, Hora) " +
+                    " values (@id_Paciente, @id_Medico, @motivo,  @fecha , @Hora);";
 
                 SqlCommand cmd = new SqlCommand(comando, con);
 
                 cmd.Parameters.AddWithValue("@id_Paciente", id_Paciente);
                 cmd.Parameters.AddWithValue("@id_Medico", id_Medico);
                 cmd.Parameters.AddWithValue("@motivo", motivo);
-                cmd.Parameters.AddWithValue("@estado", estado);
-                cmd.Parameters.AddWithValue("@fecha_Hora", fecha_Hora);
+                cmd.Parameters.AddWithValue("@fecha", fecha);
+                cmd.Parameters.AddWithValue("@Hora", Hora);
 
                 if (cmd.ExecuteNonQuery() > 0)
                 {
@@ -97,8 +99,8 @@ namespace Modelos
                 update.Parameters.AddWithValue("@id_Paciente", id_Paciente);
                 update.Parameters.AddWithValue("@id_Medico", id_Medico);
                 update.Parameters.AddWithValue("@motivo", motivo);
-                update.Parameters.AddWithValue("@estado", estado);
-                update.Parameters.AddWithValue("@fecha_Hora", fecha_Hora);
+                update.Parameters.AddWithValue("@fecha", fecha);
+                update.Parameters.AddWithValue("@Hora", Hora);
                 update.Parameters.AddWithValue("@id_Cita", id_Cita);
 
                 update.ExecuteNonQuery();
@@ -117,10 +119,9 @@ namespace Modelos
             SqlConnection con = Conexion.Conexion.Conectar();
 
             string comando = @"
-               SELECT c.id_Cita, c.fecha_Hora, 
+               SELECT c.id_Cita, c.fecha, c.Hora
                p.Nombre AS Paciente, 
                m.Nombre AS Medico, 
-               c.motivo, c.estado
                FROM Cita c
                INNER JOIN Paciente p ON c.id_Paciente = p.id_Paciente
                INNER JOIN Medico m ON c.id_Medico = m.id_Medico
@@ -133,6 +134,26 @@ namespace Modelos
             DataTable dt = new DataTable();
             ad.Fill(dt);
             return dt;
+        }
+
+        public static DataTable CargarPaciente()
+        {
+            SqlConnection conn = Conexion.Conexion.Conectar();
+            string querycargar = "select id_Paciente,nombre_Paciente from Pacientes;";
+            SqlDataAdapter dt = new SqlDataAdapter(querycargar, conn);
+            DataTable tabla = new DataTable();
+            dt.Fill(tabla);
+            return tabla;
+        }
+
+        public static DataTable CargarMedicos()
+        {
+            SqlConnection conn = Conexion.Conexion.Conectar();
+            string querycargar = "select id_Medico,nombre_Medico from Medicos;";
+            SqlDataAdapter dt = new SqlDataAdapter(querycargar, conn);
+            DataTable tabla = new DataTable();
+            dt.Fill(tabla);
+            return tabla;
         }
     }
 }

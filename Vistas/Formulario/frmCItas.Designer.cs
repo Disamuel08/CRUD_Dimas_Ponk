@@ -28,65 +28,69 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.cmbCliente = new System.Windows.Forms.ComboBox();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.lblIdCliente = new System.Windows.Forms.Label();
-            this.dtpFecha = new System.Windows.Forms.DateTimePicker();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.lblFecha = new System.Windows.Forms.Label();
+            this.dgvCitas = new System.Windows.Forms.DataGridView();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.txtBuscar = new System.Windows.Forms.TextBox();
+            this.btnBuscar = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.cmbMedico = new System.Windows.Forms.ComboBox();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.txtDescripcion = new System.Windows.Forms.TextBox();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.txtHora = new System.Windows.Forms.TextBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.lblHora = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtBuscar = new System.Windows.Forms.TextBox();
-            this.btnBuscar = new System.Windows.Forms.Button();
-            this.dgvCitas = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
-            this.panel7 = new System.Windows.Forms.Panel();
+            this.dtpFecha = new System.Windows.Forms.DateTimePicker();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.lblFecha = new System.Windows.Forms.Label();
+            this.cmbCliente = new System.Windows.Forms.ComboBox();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.lblIdCliente = new System.Windows.Forms.Label();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.panel13 = new System.Windows.Forms.Panel();
             this.txtBuscar2 = new System.Windows.Forms.TextBox();
             this.btnBuscar2 = new System.Windows.Forms.Button();
-            this.dtgvCitas2 = new System.Windows.Forms.DataGridView();
+            this.panel7 = new System.Windows.Forms.Panel();
             this.txtHora2 = new System.Windows.Forms.TextBox();
+            this.cmbCliente2 = new System.Windows.Forms.ComboBox();
             this.panel9 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
-            this.panel12 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel14 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.cmbServicio2 = new System.Windows.Forms.ComboBox();
             this.dtpFecha2 = new System.Windows.Forms.DateTimePicker();
-            this.cmbCliente2 = new System.Windows.Forms.ComboBox();
+            this.dtgvCitas2 = new System.Windows.Forms.DataGridView();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
-            this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
-            this.panel11.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCitas)).BeginInit();
-            this.panel7.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.panel10.SuspendLayout();
+            this.panel6.SuspendLayout();
+            this.panel5.SuspendLayout();
+            this.panel4.SuspendLayout();
+            this.panel11.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.panel13.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgvCitas2)).BeginInit();
+            this.panel7.SuspendLayout();
             this.panel9.SuspendLayout();
-            this.panel12.SuspendLayout();
             this.panel8.SuspendLayout();
+            this.panel12.SuspendLayout();
             this.panel14.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvCitas2)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -113,23 +117,71 @@
             this.tabPage1.Text = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // tabPage2
+            // panel3
             // 
-            this.tabPage2.Controls.Add(this.panel13);
-            this.tabPage2.Controls.Add(this.panel7);
-            this.tabPage2.Controls.Add(this.dtgvCitas2);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(947, 424);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "tabPage2";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            this.panel3.Controls.Add(this.dgvCitas);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(3, 219);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(941, 279);
+            this.panel3.TabIndex = 2;
+            // 
+            // dgvCitas
+            // 
+            this.dgvCitas.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
+            this.dgvCitas.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dgvCitas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvCitas.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvCitas.GridColor = System.Drawing.Color.CornflowerBlue;
+            this.dgvCitas.Location = new System.Drawing.Point(0, 0);
+            this.dgvCitas.Name = "dgvCitas";
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvCitas.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            this.dgvCitas.Size = new System.Drawing.Size(941, 279);
+            this.dgvCitas.TabIndex = 4;
+            this.dgvCitas.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCitas_CellContentClick);
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.txtBuscar);
+            this.panel2.Controls.Add(this.btnBuscar);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(3, 174);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(941, 45);
+            this.panel2.TabIndex = 1;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // txtBuscar
+            // 
+            this.txtBuscar.Location = new System.Drawing.Point(469, 7);
+            this.txtBuscar.Multiline = true;
+            this.txtBuscar.Name = "txtBuscar";
+            this.txtBuscar.Size = new System.Drawing.Size(337, 29);
+            this.txtBuscar.TabIndex = 4;
+            // 
+            // btnBuscar
+            // 
+            this.btnBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuscar.Location = new System.Drawing.Point(388, 7);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(75, 29);
+            this.btnBuscar.TabIndex = 3;
+            this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.UseVisualStyleBackColor = true;
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.cmbMedico);
+            this.panel1.Controls.Add(this.panel10);
             this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.txtDescripcion);
             this.panel1.Controls.Add(this.panel6);
             this.panel1.Controls.Add(this.txtHora);
             this.panel1.Controls.Add(this.panel5);
@@ -140,58 +192,103 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(941, 100);
+            this.panel1.Size = new System.Drawing.Size(941, 171);
             this.panel1.TabIndex = 0;
             // 
-            // panel2
+            // cmbMedico
             // 
-            this.panel2.Controls.Add(this.txtBuscar);
-            this.panel2.Controls.Add(this.btnBuscar);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(3, 103);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(941, 39);
-            this.panel2.TabIndex = 1;
-            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            this.cmbMedico.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbMedico.FormattingEnabled = true;
+            this.cmbMedico.Location = new System.Drawing.Point(90, 75);
+            this.cmbMedico.Name = "cmbMedico";
+            this.cmbMedico.Size = new System.Drawing.Size(276, 26);
+            this.cmbMedico.TabIndex = 41;
             // 
-            // panel3
+            // panel10
             // 
-            this.panel3.Controls.Add(this.dgvCitas);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(3, 142);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(941, 279);
-            this.panel3.TabIndex = 2;
+            this.panel10.BackColor = System.Drawing.Color.Silver;
+            this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel10.Controls.Add(this.label6);
+            this.panel10.Location = new System.Drawing.Point(17, 76);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(74, 25);
+            this.panel10.TabIndex = 42;
             // 
-            // cmbCliente
+            // label6
             // 
-            this.cmbCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbCliente.FormattingEnabled = true;
-            this.cmbCliente.Location = new System.Drawing.Point(80, 14);
-            this.cmbCliente.Name = "cmbCliente";
-            this.cmbCliente.Size = new System.Drawing.Size(175, 26);
-            this.cmbCliente.TabIndex = 33;
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(0, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(73, 18);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "Paciente";
             // 
-            // panel11
+            // button1
             // 
-            this.panel11.BackColor = System.Drawing.Color.Silver;
-            this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel11.Controls.Add(this.lblIdCliente);
-            this.panel11.Location = new System.Drawing.Point(17, 15);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(64, 25);
-            this.panel11.TabIndex = 34;
+            this.button1.Location = new System.Drawing.Point(795, 42);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "Guardar";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // lblIdCliente
+            // txtDescripcion
             // 
-            this.lblIdCliente.AutoSize = true;
-            this.lblIdCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIdCliente.Location = new System.Drawing.Point(0, 0);
-            this.lblIdCliente.Name = "lblIdCliente";
-            this.lblIdCliente.Size = new System.Drawing.Size(60, 18);
-            this.lblIdCliente.TabIndex = 1;
-            this.lblIdCliente.Text = "Cliente";
-            this.lblIdCliente.Click += new System.EventHandler(this.lblIdCliente_Click);
+            this.txtDescripcion.Location = new System.Drawing.Point(495, 46);
+            this.txtDescripcion.Multiline = true;
+            this.txtDescripcion.Name = "txtDescripcion";
+            this.txtDescripcion.Size = new System.Drawing.Size(216, 46);
+            this.txtDescripcion.TabIndex = 39;
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.Silver;
+            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel6.Controls.Add(this.label1);
+            this.panel6.Location = new System.Drawing.Point(398, 46);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(97, 24);
+            this.panel6.TabIndex = 40;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(-2, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(98, 18);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Descripcion";
+            // 
+            // txtHora
+            // 
+            this.txtHora.Location = new System.Drawing.Point(460, 16);
+            this.txtHora.Multiline = true;
+            this.txtHora.Name = "txtHora";
+            this.txtHora.Size = new System.Drawing.Size(251, 24);
+            this.txtHora.TabIndex = 37;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.Silver;
+            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel5.Controls.Add(this.lblHora);
+            this.panel5.Location = new System.Drawing.Point(398, 16);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(91, 24);
+            this.panel5.TabIndex = 38;
+            // 
+            // lblHora
+            // 
+            this.lblHora.AutoSize = true;
+            this.lblHora.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHora.Location = new System.Drawing.Point(7, 1);
+            this.lblHora.Name = "lblHora";
+            this.lblHora.Size = new System.Drawing.Size(45, 18);
+            this.lblHora.TabIndex = 7;
+            this.lblHora.Text = "Hora";
             // 
             // dtpFecha
             // 
@@ -222,126 +319,48 @@
             this.lblFecha.TabIndex = 5;
             this.lblFecha.Text = "Fecha";
             // 
-            // txtHora
+            // cmbCliente
             // 
-            this.txtHora.Location = new System.Drawing.Point(460, 16);
-            this.txtHora.Multiline = true;
-            this.txtHora.Name = "txtHora";
-            this.txtHora.Size = new System.Drawing.Size(251, 24);
-            this.txtHora.TabIndex = 37;
+            this.cmbCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbCliente.FormattingEnabled = true;
+            this.cmbCliente.Location = new System.Drawing.Point(90, 14);
+            this.cmbCliente.Name = "cmbCliente";
+            this.cmbCliente.Size = new System.Drawing.Size(276, 26);
+            this.cmbCliente.TabIndex = 33;
             // 
-            // panel5
+            // panel11
             // 
-            this.panel5.BackColor = System.Drawing.Color.Silver;
-            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel5.Controls.Add(this.lblHora);
-            this.panel5.Location = new System.Drawing.Point(398, 16);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(91, 24);
-            this.panel5.TabIndex = 38;
+            this.panel11.BackColor = System.Drawing.Color.Silver;
+            this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel11.Controls.Add(this.lblIdCliente);
+            this.panel11.Location = new System.Drawing.Point(17, 15);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(74, 25);
+            this.panel11.TabIndex = 34;
             // 
-            // lblHora
+            // lblIdCliente
             // 
-            this.lblHora.AutoSize = true;
-            this.lblHora.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHora.Location = new System.Drawing.Point(7, 1);
-            this.lblHora.Name = "lblHora";
-            this.lblHora.Size = new System.Drawing.Size(45, 18);
-            this.lblHora.TabIndex = 7;
-            this.lblHora.Text = "Hora";
+            this.lblIdCliente.AutoSize = true;
+            this.lblIdCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIdCliente.Location = new System.Drawing.Point(0, 0);
+            this.lblIdCliente.Name = "lblIdCliente";
+            this.lblIdCliente.Size = new System.Drawing.Size(73, 18);
+            this.lblIdCliente.TabIndex = 1;
+            this.lblIdCliente.Text = "Paciente";
+            this.lblIdCliente.Click += new System.EventHandler(this.lblIdCliente_Click);
             // 
-            // textBox1
+            // tabPage2
             // 
-            this.textBox1.Location = new System.Drawing.Point(495, 46);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(216, 46);
-            this.textBox1.TabIndex = 39;
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.Silver;
-            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel6.Controls.Add(this.label1);
-            this.panel6.Location = new System.Drawing.Point(398, 46);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(97, 24);
-            this.panel6.TabIndex = 40;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(-2, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(98, 18);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Descripcion";
-            // 
-            // txtBuscar
-            // 
-            this.txtBuscar.Location = new System.Drawing.Point(469, 7);
-            this.txtBuscar.Multiline = true;
-            this.txtBuscar.Name = "txtBuscar";
-            this.txtBuscar.Size = new System.Drawing.Size(337, 29);
-            this.txtBuscar.TabIndex = 4;
-            // 
-            // btnBuscar
-            // 
-            this.btnBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBuscar.Location = new System.Drawing.Point(388, 7);
-            this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(75, 29);
-            this.btnBuscar.TabIndex = 3;
-            this.btnBuscar.Text = "Buscar";
-            this.btnBuscar.UseVisualStyleBackColor = true;
-            // 
-            // dgvCitas
-            // 
-            this.dgvCitas.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
-            this.dgvCitas.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dgvCitas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvCitas.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvCitas.GridColor = System.Drawing.Color.CornflowerBlue;
-            this.dgvCitas.Location = new System.Drawing.Point(0, 0);
-            this.dgvCitas.Name = "dgvCitas";
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvCitas.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.dgvCitas.Size = new System.Drawing.Size(941, 279);
-            this.dgvCitas.TabIndex = 4;
-            this.dgvCitas.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCitas_CellContentClick);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(795, 42);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Guardar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // panel7
-            // 
-            this.panel7.Controls.Add(this.txtHora2);
-            this.panel7.Controls.Add(this.cmbCliente2);
-            this.panel7.Controls.Add(this.panel9);
-            this.panel7.Controls.Add(this.panel8);
-            this.panel7.Controls.Add(this.panel12);
-            this.panel7.Controls.Add(this.panel14);
-            this.panel7.Controls.Add(this.cmbServicio2);
-            this.panel7.Controls.Add(this.dtpFecha2);
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel7.Location = new System.Drawing.Point(3, 3);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(941, 100);
-            this.panel7.TabIndex = 1;
+            this.tabPage2.Controls.Add(this.panel13);
+            this.tabPage2.Controls.Add(this.panel7);
+            this.tabPage2.Controls.Add(this.dtgvCitas2);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(947, 424);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "tabPage2";
+            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // panel13
             // 
@@ -372,26 +391,21 @@
             this.btnBuscar2.Text = "Buscar";
             this.btnBuscar2.UseVisualStyleBackColor = true;
             // 
-            // dtgvCitas2
+            // panel7
             // 
-            this.dtgvCitas2.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
-            this.dtgvCitas2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dtgvCitas2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvCitas2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dtgvCitas2.GridColor = System.Drawing.Color.CornflowerBlue;
-            this.dtgvCitas2.Location = new System.Drawing.Point(3, 3);
-            this.dtgvCitas2.Name = "dtgvCitas2";
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dtgvCitas2.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.dtgvCitas2.Size = new System.Drawing.Size(941, 418);
-            this.dtgvCitas2.TabIndex = 5;
-            this.dtgvCitas2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.panel7.Controls.Add(this.txtHora2);
+            this.panel7.Controls.Add(this.cmbCliente2);
+            this.panel7.Controls.Add(this.panel9);
+            this.panel7.Controls.Add(this.panel8);
+            this.panel7.Controls.Add(this.panel12);
+            this.panel7.Controls.Add(this.panel14);
+            this.panel7.Controls.Add(this.cmbServicio2);
+            this.panel7.Controls.Add(this.dtpFecha2);
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel7.Location = new System.Drawing.Point(3, 3);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(941, 100);
+            this.panel7.TabIndex = 1;
             // 
             // txtHora2
             // 
@@ -400,6 +414,15 @@
             this.txtHora2.Name = "txtHora2";
             this.txtHora2.Size = new System.Drawing.Size(235, 23);
             this.txtHora2.TabIndex = 47;
+            // 
+            // cmbCliente2
+            // 
+            this.cmbCliente2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbCliente2.FormattingEnabled = true;
+            this.cmbCliente2.Location = new System.Drawing.Point(101, 12);
+            this.cmbCliente2.Name = "cmbCliente2";
+            this.cmbCliente2.Size = new System.Drawing.Size(204, 26);
+            this.cmbCliente2.TabIndex = 49;
             // 
             // panel9
             // 
@@ -421,26 +444,6 @@
             this.label2.TabIndex = 5;
             this.label2.Text = "Fecha";
             // 
-            // panel12
-            // 
-            this.panel12.BackColor = System.Drawing.Color.Silver;
-            this.panel12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel12.Controls.Add(this.label3);
-            this.panel12.Location = new System.Drawing.Point(8, 12);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(94, 26);
-            this.panel12.TabIndex = 53;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(15, 2);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 18);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Cliente";
-            // 
             // panel8
             // 
             this.panel8.BackColor = System.Drawing.Color.Silver;
@@ -460,6 +463,26 @@
             this.label4.Size = new System.Drawing.Size(45, 18);
             this.label4.TabIndex = 7;
             this.label4.Text = "Hora";
+            // 
+            // panel12
+            // 
+            this.panel12.BackColor = System.Drawing.Color.Silver;
+            this.panel12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel12.Controls.Add(this.label3);
+            this.panel12.Location = new System.Drawing.Point(8, 12);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(94, 26);
+            this.panel12.TabIndex = 53;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(15, 2);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(60, 18);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Cliente";
             // 
             // panel14
             // 
@@ -501,14 +524,26 @@
             this.dtpFecha2.Size = new System.Drawing.Size(282, 24);
             this.dtpFecha2.TabIndex = 48;
             // 
-            // cmbCliente2
+            // dtgvCitas2
             // 
-            this.cmbCliente2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbCliente2.FormattingEnabled = true;
-            this.cmbCliente2.Location = new System.Drawing.Point(101, 12);
-            this.cmbCliente2.Name = "cmbCliente2";
-            this.cmbCliente2.Size = new System.Drawing.Size(204, 26);
-            this.cmbCliente2.TabIndex = 49;
+            this.dtgvCitas2.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
+            this.dtgvCitas2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dtgvCitas2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgvCitas2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dtgvCitas2.GridColor = System.Drawing.Color.CornflowerBlue;
+            this.dtgvCitas2.Location = new System.Drawing.Point(3, 3);
+            this.dtgvCitas2.Name = "dtgvCitas2";
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dtgvCitas2.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            this.dtgvCitas2.Size = new System.Drawing.Size(941, 418);
+            this.dtgvCitas2.TabIndex = 5;
+            this.dtgvCitas2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // frmCItas
             // 
@@ -518,36 +553,39 @@
             this.Controls.Add(this.tabControl1);
             this.Name = "frmCItas";
             this.Text = "frmCItas";
+            this.Load += new System.EventHandler(this.frmCItas_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
-            this.tabPage2.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCitas)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel11.ResumeLayout(false);
-            this.panel11.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.panel10.ResumeLayout(false);
+            this.panel10.PerformLayout();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvCitas)).EndInit();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            this.panel11.ResumeLayout(false);
+            this.panel11.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
             this.panel13.ResumeLayout(false);
             this.panel13.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgvCitas2)).EndInit();
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
-            this.panel12.ResumeLayout(false);
-            this.panel12.PerformLayout();
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
+            this.panel12.ResumeLayout(false);
+            this.panel12.PerformLayout();
             this.panel14.ResumeLayout(false);
             this.panel14.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvCitas2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -563,7 +601,7 @@
         private System.Windows.Forms.ComboBox cmbCliente;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Label lblIdCliente;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtDescripcion;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtHora;
@@ -593,5 +631,8 @@
         private System.Windows.Forms.ComboBox cmbServicio2;
         private System.Windows.Forms.DateTimePicker dtpFecha2;
         private System.Windows.Forms.DataGridView dtgvCitas2;
+        private System.Windows.Forms.ComboBox cmbMedico;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.Label label6;
     }
 }

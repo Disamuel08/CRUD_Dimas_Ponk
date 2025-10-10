@@ -1,7 +1,7 @@
 -- Crear base de datos
-CREATE DATABASE ClinicaDB;
+CREATE DATABASE ClinicaDB1;
 GO
-USE ClinicaDB;
+USE ClinicaDB1;
 GO
 
 -- Tabla de Roles
@@ -51,8 +51,8 @@ CREATE TABLE Citas (
     id_Cita INT PRIMARY KEY IDENTITY(1,1),
     id_Paciente INT NOT NULL,
     id_Medico INT NOT NULL,
-    fechaHora DATETIME NOT NULL,
-    estado NVARCHAR(50) DEFAULT 'Pendiente',
+    fecha DATE NOT NULL,
+	Hora TIME NOT NULL,
     motivo NVARCHAR(500),
     FOREIGN KEY (id_Paciente) REFERENCES Pacientes(id_Paciente),
     FOREIGN KEY (id_Medico) REFERENCES Medicos(id_Medico)
@@ -72,3 +72,26 @@ GO
 -- Insertar Roles básicos
 INSERT INTO Roles (nombre_Rol) VALUES ('Administrador'), ('Médico'), ('Recepcionista');
 GO
+
+INSERT INTO Citas (id_Paciente, id_Medico, fecha, Hora, motivo)
+VALUES
+    (1, 1, '2025-10-10', '09:00:00', 'Consulta general'),
+    (2, 2, '2025-10-10', '10:30:00', 'Chequeo anual'),
+    (3, 1, '2025-10-11', '11:15:00', 'Dolor de cabeza'),
+    (1, 2, '2025-10-12', '08:45:00', 'Revisión de exámenes'),
+    (2, 1, '2025-10-13', '14:00:00', 'Consulta dermatológica');
+
+INSERT INTO Especialidades (nombre_Especialidad)
+VALUES
+    ('Medicina General'),
+    ('Pediatría'),
+    ('Cardiología'),
+    ('Dermatología');
+
+
+	INSERT INTO Medicos (nombre_Medico, id_Especialidad, telefono)
+VALUES
+    ('Dra. Ana Fernández', 1, '555-1111'),
+    ('Dr. José Martínez', 2, '555-2222');
+
+	select* from Citas

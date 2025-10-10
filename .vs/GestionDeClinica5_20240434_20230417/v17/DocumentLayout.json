@@ -1,109 +1,117 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\",
+  "WorkspaceRootPath": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9D29CD7-25B9-46A9-B780-6E00E52DA586}|Modelos\\Modelos.csproj|C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\modelos\\conexion\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9D29CD7-25B9-46A9-B780-6E00E52DA586}|Modelos\\Modelos.csproj|solutionrelative:modelos\\conexion\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|c:\\users\\flore\\onedrive\\crud_dimas_ponk\\vistas\\formulario\\frmcitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formulario\\frmcitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|c:\\users\\estudiante\\documents\\crud_dimas_ponk\\vistas\\controles\\iniciosesion2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|solutionrelative:vistas\\controles\\iniciosesion2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\vistas\\controles\\iniciosesion2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|solutionrelative:vistas\\controles\\iniciosesion2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9D29CD7-25B9-46A9-B780-6E00E52DA586}|Modelos\\Modelos.csproj|C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\modelos\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9D29CD7-25B9-46A9-B780-6E00E52DA586}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\vistas\\formulario\\frmdashboardprincipal.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formulario\\frmdashboardprincipal.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\vistas\\formulario\\frmdashboardprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formulario\\frmdashboardprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\vistas\\formulario\\frmdashboardprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formulario\\frmdashboardprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\vistas\\controles\\frnregistrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|solutionrelative:vistas\\controles\\frnregistrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\vistas\\controles\\frnregistrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|solutionrelative:vistas\\controles\\frnregistrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\vistas\\formulario\\frmdashboardprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formulario\\frmdashboardprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\vistas\\controles\\frnregistrarusuario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|solutionrelative:vistas\\controles\\frnregistrarusuario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\vistas\\controles\\frnregistrarusuario.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|solutionrelative:vistas\\controles\\frnregistrarusuario.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9D29CD7-25B9-46A9-B780-6E00E52DA586}|Modelos\\Modelos.csproj|C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\modelos\\entidades\\sesionactual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9D29CD7-25B9-46A9-B780-6E00E52DA586}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\sesionactual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9D29CD7-25B9-46A9-B780-6E00E52DA586}|Modelos\\Modelos.csproj|C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\modelos\\entidades\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9D29CD7-25B9-46A9-B780-6E00E52DA586}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9D29CD7-25B9-46A9-B780-6E00E52DA586}|Modelos\\Modelos.csproj|C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\modelos\\entidades\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9D29CD7-25B9-46A9-B780-6E00E52DA586}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9D29CD7-25B9-46A9-B780-6E00E52DA586}|Modelos\\Modelos.csproj|C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\modelos\\entidades\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9D29CD7-25B9-46A9-B780-6E00E52DA586}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9D29CD7-25B9-46A9-B780-6E00E52DA586}|Modelos\\Modelos.csproj|C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\modelos\\entidades\\especialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9D29CD7-25B9-46A9-B780-6E00E52DA586}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\especialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\vistas\\formulario\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formulario\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\vistas\\formulario\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formulario\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\vistas\\formulario\\frmhistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formulario\\frmhistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\vistas\\formulario\\frmcitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\vistas\\formulario\\frmcitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formulario\\frmcitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\vistas\\formulario\\frmmedicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\vistas\\formulario\\frmdashboardprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formulario\\frmdashboardprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9D29CD7-25B9-46A9-B780-6E00E52DA586}|Modelos\\Modelos.csproj|C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\modelos\\entidades\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9D29CD7-25B9-46A9-B780-6E00E52DA586}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9D29CD7-25B9-46A9-B780-6E00E52DA586}|Modelos\\Modelos.csproj|C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\modelos\\entidades\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9D29CD7-25B9-46A9-B780-6E00E52DA586}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9D29CD7-25B9-46A9-B780-6E00E52DA586}|Modelos\\Modelos.csproj|C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\modelos\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9D29CD7-25B9-46A9-B780-6E00E52DA586}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|c:\\users\\flore\\onedrive\\crud_dimas_ponk\\vistas\\formulario\\frmcitas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formulario\\frmcitas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9D29CD7-25B9-46A9-B780-6E00E52DA586}|Modelos\\Modelos.csproj|C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\modelos\\entidades\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9D29CD7-25B9-46A9-B780-6E00E52DA586}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9D29CD7-25B9-46A9-B780-6E00E52DA586}|Modelos\\Modelos.csproj|c:\\users\\flore\\onedrive\\crud_dimas_ponk\\modelos\\conexion\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9D29CD7-25B9-46A9-B780-6E00E52DA586}|Modelos\\Modelos.csproj|solutionrelative:modelos\\conexion\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\vistas\\controles\\iniciosesion2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|solutionrelative:vistas\\controles\\iniciosesion2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\vistas\\controles\\iniciosesion2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|solutionrelative:vistas\\controles\\iniciosesion2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\vistas\\formulario\\frmdashboardprincipal.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formulario\\frmdashboardprincipal.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\vistas\\formulario\\frmdashboardprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formulario\\frmdashboardprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\vistas\\formulario\\frmdashboardprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formulario\\frmdashboardprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\vistas\\controles\\frnregistrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|solutionrelative:vistas\\controles\\frnregistrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\vistas\\controles\\frnregistrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|solutionrelative:vistas\\controles\\frnregistrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\vistas\\controles\\frnregistrarusuario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|solutionrelative:vistas\\controles\\frnregistrarusuario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\vistas\\controles\\frnregistrarusuario.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|solutionrelative:vistas\\controles\\frnregistrarusuario.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9D29CD7-25B9-46A9-B780-6E00E52DA586}|Modelos\\Modelos.csproj|C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\modelos\\entidades\\sesionactual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9D29CD7-25B9-46A9-B780-6E00E52DA586}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\sesionactual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9D29CD7-25B9-46A9-B780-6E00E52DA586}|Modelos\\Modelos.csproj|C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\modelos\\entidades\\especialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9D29CD7-25B9-46A9-B780-6E00E52DA586}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\especialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\vistas\\formulario\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formulario\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\vistas\\formulario\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formulario\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\vistas\\formulario\\frmhistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formulario\\frmhistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\vistas\\formulario\\frmmedicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formulario\\frmmedicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\vistas\\formulario\\frmpacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\vistas\\formulario\\frmpacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formulario\\frmpacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\vistas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\vistas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|solutionrelative:vistas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\vistas\\formulario\\frmlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\vistas\\formulario\\frmlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formulario\\frmlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\vistas\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\vistas\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A9DF0C08-68D4-473C-8BF6-E223096C4BD7}|Vistas\\Vistas.csproj|solutionrelative:vistas\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
@@ -117,59 +125,160 @@
           "SelectedChildIndex": 7,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5a4e9529-b6a0-46b5-be4f-0f0b239bc0eb}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cita.cs",
+              "DocumentMoniker": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Modelos\\Entidades\\Cita.cs",
+              "RelativeDocumentMoniker": "Modelos\\Entidades\\Cita.cs",
+              "ToolTip": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Modelos\\Entidades\\Cita.cs",
+              "RelativeToolTip": "Modelos\\Entidades\\Cita.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAswJcAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T04:31:21.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Modelos\\Entidades\\Usuario.cs",
+              "RelativeDocumentMoniker": "Modelos\\Entidades\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Modelos\\Entidades\\Usuario.cs",
+              "RelativeToolTip": "Modelos\\Entidades\\Usuario.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAswGIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T04:31:23.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmCItas.cs",
+              "DocumentMoniker": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Vistas\\Formulario\\frmCItas.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formulario\\frmCItas.cs",
+              "ToolTip": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Vistas\\Formulario\\frmCItas.cs",
+              "RelativeToolTip": "Vistas\\Formulario\\frmCItas.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAiwKEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T00:58:36.905Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "InicioSesion2.cs",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Vistas\\Controles\\InicioSesion2.cs",
-              "RelativeDocumentMoniker": "Vistas\\Controles\\InicioSesion2.cs",
-              "ToolTip": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Vistas\\Controles\\InicioSesion2.cs",
-              "RelativeToolTip": "Vistas\\Controles\\InicioSesion2.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAhwFcAAAA5AAAAAAAAAA==",
+              "Title": "frmCItas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Vistas\\Formulario\\frmCItas.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formulario\\frmCItas.cs",
+              "ToolTip": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Vistas\\Formulario\\frmCItas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Vistas\\Formulario\\frmCItas.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T02:48:33.442Z",
+              "WhenOpened": "2025-10-09T04:09:54.016Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Paciente.cs",
+              "DocumentMoniker": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Modelos\\Entidades\\Paciente.cs",
+              "RelativeDocumentMoniker": "Modelos\\Entidades\\Paciente.cs",
+              "ToolTip": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Modelos\\Entidades\\Paciente.cs",
+              "RelativeToolTip": "Modelos\\Entidades\\Paciente.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAxwBcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T04:31:22.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Medico.cs",
+              "DocumentMoniker": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Modelos\\Entidades\\Medico.cs",
+              "RelativeDocumentMoniker": "Modelos\\Entidades\\Medico.cs",
+              "ToolTip": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Modelos\\Entidades\\Medico.cs",
+              "RelativeToolTip": "Modelos\\Entidades\\Medico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T04:19:53.604Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "InicioSesion2.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Vistas\\Controles\\InicioSesion2.cs",
-              "RelativeDocumentMoniker": "Vistas\\Controles\\InicioSesion2.cs",
-              "ToolTip": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk1\\Vistas\\Controles\\InicioSesion2.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\Flore\\OneDrive\\CRUD_Dimas_Ponk1\\Vistas\\Controles\\InicioSesion2.cs [Dise\u00F1o]",
+              "Title": "frmDashboardPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Vistas\\Formulario\\frmDashboardPrincipal.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formulario\\frmDashboardPrincipal.cs",
+              "ToolTip": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Vistas\\Formulario\\frmDashboardPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Vistas\\Formulario\\frmDashboardPrincipal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T02:38:22.505Z"
+              "WhenOpened": "2025-10-09T03:14:23.234Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frmDashboardPrincipal.resx",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Vistas\\Formulario\\frmDashboardPrincipal.resx",
-              "RelativeDocumentMoniker": "Vistas\\Formulario\\frmDashboardPrincipal.resx",
-              "ToolTip": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Vistas\\Formulario\\frmDashboardPrincipal.resx",
-              "RelativeToolTip": "Vistas\\Formulario\\frmDashboardPrincipal.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-10-09T06:10:01.469Z"
+              "DocumentIndex": 6,
+              "Title": "frmCItas.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Vistas\\Formulario\\frmCItas.Designer.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formulario\\frmCItas.Designer.cs",
+              "ToolTip": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Vistas\\Formulario\\frmCItas.Designer.cs",
+              "RelativeToolTip": "Vistas\\Formulario\\frmCItas.Designer.cs",
+              "ViewState": "AgIAAA8CAAAAAAAAAADwvyMCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T01:11:03.895Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Modelos\\Conexion\\Conexion.cs",
+              "RelativeDocumentMoniker": "Modelos\\Conexion\\Conexion.cs",
+              "ToolTip": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Modelos\\Conexion\\Conexion.cs",
+              "RelativeToolTip": "Modelos\\Conexion\\Conexion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T02:42:59.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "frmDashboardPrincipal.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Vistas\\Formulario\\frmDashboardPrincipal.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Vistas\\Formulario\\frmDashboardPrincipal.Designer.cs",
               "RelativeDocumentMoniker": "Vistas\\Formulario\\frmDashboardPrincipal.Designer.cs",
-              "ToolTip": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Vistas\\Formulario\\frmDashboardPrincipal.Designer.cs",
+              "ToolTip": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Vistas\\Formulario\\frmDashboardPrincipal.Designer.cs",
               "RelativeToolTip": "Vistas\\Formulario\\frmDashboardPrincipal.Designer.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T06:10:01.332Z"
+              "WhenOpened": "2025-10-09T06:10:01.332Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "frnRegistrarUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Vistas\\Controles\\frnRegistrarUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Vistas\\Controles\\frnRegistrarUsuario.cs",
               "RelativeDocumentMoniker": "Vistas\\Controles\\frnRegistrarUsuario.cs",
-              "ToolTip": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Vistas\\Controles\\frnRegistrarUsuario.cs",
+              "ToolTip": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Vistas\\Controles\\frnRegistrarUsuario.cs",
               "RelativeToolTip": "Vistas\\Controles\\frnRegistrarUsuario.cs",
               "ViewState": "AgIAAGkAAAAAAAAAAAAowFwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -177,81 +286,81 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
+              "Title": "frmDashboardPrincipal.resx",
+              "DocumentMoniker": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Vistas\\Formulario\\frmDashboardPrincipal.resx",
+              "RelativeDocumentMoniker": "Vistas\\Formulario\\frmDashboardPrincipal.resx",
+              "ToolTip": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Vistas\\Formulario\\frmDashboardPrincipal.resx",
+              "RelativeToolTip": "Vistas\\Formulario\\frmDashboardPrincipal.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-10-09T06:10:01.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InicioSesion2.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Vistas\\Controles\\InicioSesion2.cs",
+              "RelativeDocumentMoniker": "Vistas\\Controles\\InicioSesion2.cs",
+              "ToolTip": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk1\\Vistas\\Controles\\InicioSesion2.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\CRUD_Dimas_Ponk1\\Vistas\\Controles\\InicioSesion2.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T02:38:22.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InicioSesion2.cs",
+              "DocumentMoniker": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Vistas\\Controles\\InicioSesion2.cs",
+              "RelativeDocumentMoniker": "Vistas\\Controles\\InicioSesion2.cs",
+              "ToolTip": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Vistas\\Controles\\InicioSesion2.cs",
+              "RelativeToolTip": "Vistas\\Controles\\InicioSesion2.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAhwFcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T02:48:33.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "frnRegistrarUsuario.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Vistas\\Controles\\frnRegistrarUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Vistas\\Controles\\frnRegistrarUsuario.cs",
               "RelativeDocumentMoniker": "Vistas\\Controles\\frnRegistrarUsuario.cs",
               "ToolTip": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk1\\Vistas\\Controles\\frnRegistrarUsuario.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\Flore\\OneDrive\\CRUD_Dimas_Ponk1\\Vistas\\Controles\\frnRegistrarUsuario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\CRUD_Dimas_Ponk1\\Vistas\\Controles\\frnRegistrarUsuario.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-09T02:38:54.273Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "frmDashboardPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Vistas\\Formulario\\frmDashboardPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Vistas\\Formulario\\frmDashboardPrincipal.cs",
               "RelativeDocumentMoniker": "Vistas\\Formulario\\frmDashboardPrincipal.cs",
-              "ToolTip": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Vistas\\Formulario\\frmDashboardPrincipal.cs",
+              "ToolTip": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Vistas\\Formulario\\frmDashboardPrincipal.cs",
               "RelativeToolTip": "Vistas\\Formulario\\frmDashboardPrincipal.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T04:10:17.666Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Conexion.cs",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Modelos\\Conexion\\Conexion.cs",
-              "RelativeDocumentMoniker": "Modelos\\Conexion\\Conexion.cs",
-              "ToolTip": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Modelos\\Conexion\\Conexion.cs*",
-              "RelativeToolTip": "Modelos\\Conexion\\Conexion.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T02:42:59.921Z",
+              "WhenOpened": "2025-10-09T04:10:17.666Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Modelos\\Entidades\\Usuario.cs",
-              "RelativeDocumentMoniker": "Modelos\\Entidades\\Usuario.cs",
-              "ToolTip": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Modelos\\Entidades\\Usuario.cs",
-              "RelativeToolTip": "Modelos\\Entidades\\Usuario.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAAAFEAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T04:31:23.432Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "frmDashboardPrincipal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Vistas\\Formulario\\frmDashboardPrincipal.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formulario\\frmDashboardPrincipal.cs",
-              "ToolTip": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk1\\Vistas\\Formulario\\frmDashboardPrincipal.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\Flore\\OneDrive\\CRUD_Dimas_Ponk1\\Vistas\\Formulario\\frmDashboardPrincipal.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T03:14:23.234Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "frnRegistrarUsuario.resx",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Vistas\\Controles\\frnRegistrarUsuario.resx",
+              "DocumentMoniker": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Vistas\\Controles\\frnRegistrarUsuario.resx",
               "RelativeDocumentMoniker": "Vistas\\Controles\\frnRegistrarUsuario.resx",
-              "ToolTip": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Vistas\\Controles\\frnRegistrarUsuario.resx",
+              "ToolTip": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Vistas\\Controles\\frnRegistrarUsuario.resx",
               "RelativeToolTip": "Vistas\\Controles\\frnRegistrarUsuario.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
               "WhenOpened": "2025-10-09T04:56:06.466Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "frnRegistrarUsuario.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Vistas\\Controles\\frnRegistrarUsuario.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Vistas\\Controles\\frnRegistrarUsuario.Designer.cs",
               "RelativeDocumentMoniker": "Vistas\\Controles\\frnRegistrarUsuario.Designer.cs",
-              "ToolTip": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Vistas\\Controles\\frnRegistrarUsuario.Designer.cs",
+              "ToolTip": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Vistas\\Controles\\frnRegistrarUsuario.Designer.cs",
               "RelativeToolTip": "Vistas\\Controles\\frnRegistrarUsuario.Designer.cs",
               "ViewState": "AgIAAH0AAAAAAAAAAAAgwJQAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -259,11 +368,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "SesionActual.cs",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Modelos\\Entidades\\SesionActual.cs",
+              "DocumentMoniker": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Modelos\\Entidades\\SesionActual.cs",
               "RelativeDocumentMoniker": "Modelos\\Entidades\\SesionActual.cs",
-              "ToolTip": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Modelos\\Entidades\\SesionActual.cs",
+              "ToolTip": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Modelos\\Entidades\\SesionActual.cs",
               "RelativeToolTip": "Modelos\\Entidades\\SesionActual.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -271,35 +380,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Paciente.cs",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Modelos\\Entidades\\Paciente.cs",
-              "RelativeDocumentMoniker": "Modelos\\Entidades\\Paciente.cs",
-              "ToolTip": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Modelos\\Entidades\\Paciente.cs",
-              "RelativeToolTip": "Modelos\\Entidades\\Paciente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T04:31:22.767Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Cita.cs",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Modelos\\Entidades\\Cita.cs",
-              "RelativeDocumentMoniker": "Modelos\\Entidades\\Cita.cs",
-              "ToolTip": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Modelos\\Entidades\\Cita.cs",
-              "RelativeToolTip": "Modelos\\Entidades\\Cita.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T04:31:21.053Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "Especialidad.cs",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Modelos\\Entidades\\Especialidad.cs",
+              "DocumentMoniker": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Modelos\\Entidades\\Especialidad.cs",
               "RelativeDocumentMoniker": "Modelos\\Entidades\\Especialidad.cs",
-              "ToolTip": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Modelos\\Entidades\\Especialidad.cs",
+              "ToolTip": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Modelos\\Entidades\\Especialidad.cs",
               "RelativeToolTip": "Modelos\\Entidades\\Especialidad.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -307,23 +392,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Medico.cs",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Modelos\\Entidades\\Medico.cs",
-              "RelativeDocumentMoniker": "Modelos\\Entidades\\Medico.cs",
-              "ToolTip": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Modelos\\Entidades\\Medico.cs",
-              "RelativeToolTip": "Modelos\\Entidades\\Medico.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T04:19:53.604Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "frmlogin.cs",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Vistas\\Formulario\\frmlogin.cs",
+              "DocumentMoniker": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Vistas\\Formulario\\frmlogin.cs",
               "RelativeDocumentMoniker": "Vistas\\Formulario\\frmlogin.cs",
-              "ToolTip": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Vistas\\Formulario\\frmlogin.cs",
+              "ToolTip": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Vistas\\Formulario\\frmlogin.cs",
               "RelativeToolTip": "Vistas\\Formulario\\frmlogin.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAgwB4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -331,66 +404,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "frmlogin.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Vistas\\Formulario\\frmlogin.cs",
+              "DocumentMoniker": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Vistas\\Formulario\\frmlogin.cs",
               "RelativeDocumentMoniker": "Vistas\\Formulario\\frmlogin.cs",
               "ToolTip": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk1\\Vistas\\Formulario\\frmlogin.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\Flore\\OneDrive\\CRUD_Dimas_Ponk1\\Vistas\\Formulario\\frmlogin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\CRUD_Dimas_Ponk1\\Vistas\\Formulario\\frmlogin.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-09T02:26:52.699Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "frmHistorial.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Vistas\\Formulario\\frmHistorial.cs",
+              "DocumentMoniker": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Vistas\\Formulario\\frmHistorial.cs",
               "RelativeDocumentMoniker": "Vistas\\Formulario\\frmHistorial.cs",
               "ToolTip": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk1\\Vistas\\Formulario\\frmHistorial.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\Flore\\OneDrive\\CRUD_Dimas_Ponk1\\Vistas\\Formulario\\frmHistorial.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\CRUD_Dimas_Ponk1\\Vistas\\Formulario\\frmHistorial.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-09T04:10:06.773Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "frmCItas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Vistas\\Formulario\\frmCItas.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formulario\\frmCItas.cs",
-              "ToolTip": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk1\\Vistas\\Formulario\\frmCItas.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\Flore\\OneDrive\\CRUD_Dimas_Ponk1\\Vistas\\Formulario\\frmCItas.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T04:09:54.016Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "frmMedicos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Vistas\\Formulario\\frmMedicos.cs",
+              "DocumentMoniker": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Vistas\\Formulario\\frmMedicos.cs",
               "RelativeDocumentMoniker": "Vistas\\Formulario\\frmMedicos.cs",
               "ToolTip": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk1\\Vistas\\Formulario\\frmMedicos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\Flore\\OneDrive\\CRUD_Dimas_Ponk1\\Vistas\\Formulario\\frmMedicos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\CRUD_Dimas_Ponk1\\Vistas\\Formulario\\frmMedicos.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-09T04:09:43.291Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "frmPacientes.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Vistas\\Formulario\\frmPacientes.cs",
+              "DocumentMoniker": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Vistas\\Formulario\\frmPacientes.cs",
               "RelativeDocumentMoniker": "Vistas\\Formulario\\frmPacientes.cs",
               "ToolTip": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk1\\Vistas\\Formulario\\frmPacientes.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\Flore\\OneDrive\\CRUD_Dimas_Ponk1\\Vistas\\Formulario\\frmPacientes.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\CRUD_Dimas_Ponk1\\Vistas\\Formulario\\frmPacientes.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-09T04:08:56.809Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Vistas\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Vistas\\Program.cs",
               "RelativeDocumentMoniker": "Vistas\\Program.cs",
-              "ToolTip": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Vistas\\Program.cs",
+              "ToolTip": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Vistas\\Program.cs",
               "RelativeToolTip": "Vistas\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -398,11 +460,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "frmlogin.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Vistas\\Formulario\\frmlogin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Vistas\\Formulario\\frmlogin.Designer.cs",
               "RelativeDocumentMoniker": "Vistas\\Formulario\\frmlogin.Designer.cs",
-              "ToolTip": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Vistas\\Formulario\\frmlogin.Designer.cs",
+              "ToolTip": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Vistas\\Formulario\\frmlogin.Designer.cs",
               "RelativeToolTip": "Vistas\\Formulario\\frmlogin.Designer.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAvwEQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -410,15 +472,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Vistas\\App.config",
+              "DocumentMoniker": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Vistas\\App.config",
               "RelativeDocumentMoniker": "Vistas\\App.config",
-              "ToolTip": "C:\\Users\\Estudiante\\Documents\\CRUD_Dimas_Ponk\\Vistas\\App.config",
+              "ToolTip": "C:\\Users\\Flore\\OneDrive\\CRUD_Dimas_Ponk\\Vistas\\App.config",
               "RelativeToolTip": "Vistas\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-10-09T02:36:17.613Z"
+              "WhenOpened": "2025-10-09T02:36:17.613Z",
+              "EditorCaption": ""
             }
           ]
         }

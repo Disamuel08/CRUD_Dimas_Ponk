@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,6 +26,14 @@ namespace Modelos
         public bool Genero { get => genero; set => genero = value; }
         public string Correo_Electronico { get => correo_Electronico; set => correo_Electronico = value; }
 
-
+        public static DataTable MostrarPacientes()
+        {
+            SqlConnection con = Conexion.Conexion.Conectar();
+            string comando = "select id_Paciente as #, nombre_Paciente, direccion, telefono, fecha_Nacimiento,genero,  correo_Electronico from cliente;";
+            SqlDataAdapter ad = new SqlDataAdapter(comando, con);
+            DataTable dt = new DataTable();
+            ad.Fill(dt);
+            return dt;
+        }
     }
 }
