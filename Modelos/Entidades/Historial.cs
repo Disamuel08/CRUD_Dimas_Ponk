@@ -26,7 +26,7 @@ namespace Modelos
         public static DataTable MostrarHistorial()
         {
             SqlConnection con = Conexion.Conexion.Conectar();
-            string comando = "";
+            string comando = "SELECT    h.id_Historial as #,   p.nombre_Paciente AS nombre_paciente,    m.nombre_Medico AS nombre_medico,    h.descripcion,    h.fecha FROM Historiales h INNER JOIN Pacientes p ON h.id_Paciente = p.id_Paciente INNER JOIN Medicos m ON h.id_Medico = m.id_Medico ORDER BY h.fecha DESC; ";
             SqlDataAdapter ad = new SqlDataAdapter(comando, con);
             DataTable dt = new DataTable();
             ad.Fill(dt);
@@ -39,7 +39,7 @@ namespace Modelos
             {
                 SqlConnection con = Conexion.Conexion.Conectar();
 
-                string comando = "Insert into historial (id_Paciente, id_Medico, descripcion, fecha) " +
+                string comando = "Insert into Historial (id_Paciente, id_Medico, descripcion, fecha) " +
                     " values (@id_Paciente, @id_Medico, @descripcion, @fecha);";
 
                 SqlCommand cmd = new SqlCommand(comando, con);
@@ -70,7 +70,7 @@ namespace Modelos
             try
             {
                 SqlConnection conectar = Conexion.Conexion.Conectar();
-                string consultaDelete = "Delete from historial where id_Historial=@id_Historial";
+                string consultaDelete = "Delete from Historial where id_Historial=@id_Historial";
                 SqlCommand delete = new SqlCommand(consultaDelete, conectar);
                 delete.Parameters.AddWithValue("@id_Historial", id);
                 delete.ExecuteNonQuery();
@@ -88,7 +88,7 @@ namespace Modelos
             try
             {
                 SqlConnection conexion = Conexion.Conexion.Conectar();
-                string consultaUpdate = "update cita set id_Paciente=@id_Paciente,id_Medico=@id_Medico,descripcion=@descripcion,fecha=@fecha  where  id_Historial=@ id_Historial";
+                string consultaUpdate = "update cita set id_Paciente=@id_Paciente,id_Medico=@id_Medico,descripcion=@descripcion,fecha=@fecha  where  id_Historial=@id_Historial";
                 SqlCommand update = new SqlCommand(consultaUpdate, conexion);
 
                 update.Parameters.AddWithValue("@id_Paciente", id_Paciente);
@@ -112,7 +112,17 @@ namespace Modelos
         {
             SqlConnection con = Conexion.Conexion.Conectar();
 
-            string comando = @"";
+            string comando = @"SELECT 
+                               h.id_Historial as #,
+                               p.nombre_Paciente AS nombre_paciente,
+                               m.nombre_Medico AS nombre_medico,
+                               h.descripcion,
+                               h.fecha
+                               FROM Historiales h
+                               INNER JOIN Pacientes p ON h.id_Paciente = p.id_Paciente
+                               INNER JOIN Medicos m ON h.id_Medico = m.id_Medico
+                               WHERE p.nombre_Paciente LIKE '%' + @busqueda + '%' 
+                               OR m.nombre_Medico LIKE '%' + @busqueda + '%';";
 
             SqlCommand cmd = new SqlCommand(comando, con);
             cmd.Parameters.AddWithValue("@busqueda", "%" + busqueda + "%");

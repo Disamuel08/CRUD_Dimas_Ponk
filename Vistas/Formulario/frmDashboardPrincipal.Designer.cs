@@ -35,12 +35,14 @@
             this.btnMedicos = new System.Windows.Forms.Button();
             this.btnPacientes = new System.Windows.Forms.Button();
             this.pnlPanelCentral = new System.Windows.Forms.Panel();
+            this.btnEspecialidades = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.AutoScroll = true;
+            this.panel1.Controls.Add(this.btnEspecialidades);
             this.panel1.Controls.Add(this.btnCerrar);
             this.panel1.Controls.Add(this.btnHistorial);
             this.panel1.Controls.Add(this.btnCItas);
@@ -122,6 +124,18 @@
             this.pnlPanelCentral.TabIndex = 1;
             this.pnlPanelCentral.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlPanelCentral_Paint);
             // 
+            // btnEspecialidades
+            // 
+            this.btnEspecialidades.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnEspecialidades.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEspecialidades.Location = new System.Drawing.Point(0, 222);
+            this.btnEspecialidades.Name = "btnEspecialidades";
+            this.btnEspecialidades.Size = new System.Drawing.Size(200, 61);
+            this.btnEspecialidades.TabIndex = 6;
+            this.btnEspecialidades.Text = "Especialidades";
+            this.btnEspecialidades.UseVisualStyleBackColor = true;
+            this.btnEspecialidades.Click += new System.EventHandler(this.btnEspecialidades_Click);
+            // 
             // frmDashboardPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -147,5 +161,6 @@
         private System.Windows.Forms.Button btnMedicos;
         private System.Windows.Forms.Button btnPacientes;
         private System.Windows.Forms.Panel pnlPanelCentral;
+        private System.Windows.Forms.Button btnEspecialidades;
     }
 }

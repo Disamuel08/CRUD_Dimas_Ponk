@@ -75,11 +75,13 @@ namespace Vistas.Formulario
                     break;
                 case 2: // Medico
                     btnMedicos.Visible = false;
+                    btnEspecialidades.Visible = false;
                    
                     break;
                 case 3: // Recepcionista
                     btnMedicos.Visible = false;
                     btnHistorial.Visible = false;
+                    btnEspecialidades.Visible = false;
                     break;
             }
         }
@@ -99,6 +101,11 @@ namespace Vistas.Formulario
         private void pnlPanelCentral_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void btnEspecialidades_Click(object sender, EventArgs e)
+        {
+            AbrirForm(new frmEspecialidades());
         }
     }
 }

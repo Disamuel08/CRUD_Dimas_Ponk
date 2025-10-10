@@ -20,7 +20,7 @@ namespace Modelos
         public static DataTable MostrarEspecialidad()
         {
             SqlConnection con = Conexion.Conexion.Conectar();
-            string comando = "SELECT * FROM especialidad;";
+            string comando = "SELECT id_Especialidad as #, nombre_Especialidad FROM Especialidad;";
             SqlDataAdapter ad = new SqlDataAdapter(comando, con);
             DataTable dt = new DataTable();
             ad.Fill(dt);
@@ -33,12 +33,12 @@ namespace Modelos
             {
                 SqlConnection con = Conexion.Conexion.Conectar();
 
-                string comando = "Insert into especialidad (nombre_Especialidad) " +
+                string comando = "Insert into Especialidad (nombre_Especialidad) " +
                     " values (@nombre_Especialidad);";
 
                 SqlCommand cmd = new SqlCommand(comando, con);
 
-                cmd.Parameters.AddWithValue("@id_Paciente", nombre_Especialidad);
+                cmd.Parameters.AddWithValue("@nombre_Especialidad", nombre_Especialidad);
 
                 if (cmd.ExecuteNonQuery() > 0)
                 {
@@ -61,7 +61,7 @@ namespace Modelos
             try
             {
                 SqlConnection conectar = Conexion.Conexion.Conectar();
-                string consultaDelete = "Delete from especialidad where id_Especialidad=@id_Especialidad";
+                string consultaDelete = "Delete from Especialidad where id_Especialidad=@id_Especialidad";
                 SqlCommand delete = new SqlCommand(consultaDelete, conectar);
                 delete.Parameters.AddWithValue("@id_Especialidad", id);
                 delete.ExecuteNonQuery();
@@ -100,7 +100,7 @@ namespace Modelos
         {
             SqlConnection con = Conexion.Conexion.Conectar();
 
-            string comando = @"";
+            string comando = @"SELECT id_Especialidad as #, nombre_Especialidad FROM Especialidad WHERE nombre_Especialidad LIKE @busqueda";
 
             SqlCommand cmd = new SqlCommand(comando, con);
             cmd.Parameters.AddWithValue("@busqueda", "%" + busqueda + "%");

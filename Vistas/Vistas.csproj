@@ -87,6 +87,12 @@
     <Compile Include="Formulario\frmDashboardPrincipal.Designer.cs">
       <DependentUpon>frmDashboardPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formulario\frmEspecialidades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario\frmEspecialidades.Designer.cs">
+      <DependentUpon>frmEspecialidades.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formulario\frmHistorial.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -124,6 +130,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formulario\frmDashboardPrincipal.resx">
       <DependentUpon>frmDashboardPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario\frmEspecialidades.resx">
+      <DependentUpon>frmEspecialidades.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formulario\frmlogin.resx">
       <DependentUpon>frmlogin.cs</DependentUpon>

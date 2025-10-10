@@ -24,7 +24,7 @@ namespace Modelos
         public static DataTable MostrarMedicos()
         {
             SqlConnection con = Conexion.Conexion.Conectar();
-            string comando = "SELECT * FROM medico;";
+            string comando = "SELECT    m.id_Medico,   m.nombre_Medico,    e.nombre_Especialidad AS especialidad,    m.telefono FROM Medicos m INNER JOIN Especialidades e ON m.id_Especialidad = e.id_Especialidad;";
             SqlDataAdapter ad = new SqlDataAdapter(comando, con);
             DataTable dt = new DataTable();
             ad.Fill(dt);
@@ -37,13 +37,13 @@ namespace Modelos
             {
                 SqlConnection con = Conexion.Conexion.Conectar();
 
-                string comando = "";
+                string comando = "INSERT INTO Medicos (nombre_Medico, id_Especialidad, telefono) values (@nombre_Medico, @id_Especialidad, @telefono);";
 
                 SqlCommand cmd = new SqlCommand(comando, con);
 
-                //cmd.Parameters.AddWithValue("", );
-                //cmd.Parameters.AddWithValue("", );
-                //cmd.Parameters.AddWithValue("", );
+                cmd.Parameters.AddWithValue("@nombre_Medico", nombre_Medico);
+                cmd.Parameters.AddWithValue("@id_Especialidad", id_Especialidad);
+                cmd.Parameters.AddWithValue("@telefono",telefono);
 
                 if (cmd.ExecuteNonQuery() > 0)
                 {
@@ -66,9 +66,9 @@ namespace Modelos
             try
             {
                 SqlConnection conectar = Conexion.Conexion.Conectar();
-                string consultaDelete = "";
+                string consultaDelete = "Delete from Medicos where id_Medico=@id_Medico";
                 SqlCommand delete = new SqlCommand(consultaDelete, conectar);
-                delete.Parameters.AddWithValue("", id);
+                delete.Parameters.AddWithValue("@id_Medico", id);
                 delete.ExecuteNonQuery();
                 return true;
             }
@@ -84,15 +84,13 @@ namespace Modelos
             try
             {
                 SqlConnection conexion = Conexion.Conexion.Conectar();
-                string consultaUpdate = "";
+                string consultaUpdate = "update Medicos set nombre_Medico=@nombre_Medico, id_Especialidad=@id_Especialidad, telefono=@telefono where id_Medico=@id_Medico";
                 SqlCommand update = new SqlCommand(consultaUpdate, conexion);
 
-                //update.Parameters.AddWithValue("@", );
-                //update.Parameters.AddWithValue("@", );
-                //update.Parameters.AddWithValue("@", );
-                //update.Parameters.AddWithValue("@", );
-
-
+                update.Parameters.AddWithValue("@nombre_Medico", nombre_Medico);
+                update.Parameters.AddWithValue("@id_Especialidad", id_Especialidad);
+                update.Parameters.AddWithValue("@telefono", telefono);
+                update.Parameters.AddWithValue("@id_Medico", id_Medico);
 
                 update.ExecuteNonQuery();
                 MessageBox.Show("Medico actualizado exitosamente.", "Actualización Completada", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -109,7 +107,15 @@ namespace Modelos
         {
             SqlConnection con = Conexion.Conexion.Conectar();
 
-            string comando = @"";
+            string comando = @"SELECT 
+                             m.id_Medico,
+                             m.nombre_Medico,
+                             e.nombre_Especialidad AS especialidad,
+                             m.telefono
+                             FROM Medicos m
+                             INNER JOIN Especialidades e ON m.id_Especialidad = e.id_Especialidad
+                             WHERE m.nombre_Medico LIKE '%' + @busqueda + '%' 
+                             OR e.nombre_Especialidad LIKE '%' + @busqueda + '%';";
 
             SqlCommand cmd = new SqlCommand(comando, con);
             cmd.Parameters.AddWithValue("@busqueda", "%" + busqueda + "%");
